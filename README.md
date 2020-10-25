@@ -27,7 +27,7 @@ Welcome to exchange discussion: [Click to join QQ group 568015492](//shang.qq.co
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/0905/180337_91c70c54_301547.jpeg "zanshangma.jpg")
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/0905/180345_49207d1d_301547.jpeg "zfb1.jpg")
 
-#### The source code is only for exchange learning. The open source agreement is [GPL-3.0](https://gitee.com/kwwwvagaa/net_winform_custom_control/blob/master/LICENSE). For commercial use, please contact the group owner.
+#### The source code is only for exchange learning. The open source agreement is [Apache License 2.0](https://gitee.com/kwwwvagaa/net_winform_custom_control/blob/master/LICENSE). For commercial use, please contact the group owner.
 
 #### Come here, come to a `Star` and let's go.
 
@@ -35,6 +35,10 @@ Welcome to exchange discussion: [Click to join QQ group 568015492](//shang.qq.co
 
 ``` csharp
 Install-Package HZH_Controls
+```
+
+``` csharp
+The content listed below is only part of the control, more control effects, please download the source code to see the demo running effect!
 ```
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/0903/084635_85b9e4a3_301547.gif "1.gif")

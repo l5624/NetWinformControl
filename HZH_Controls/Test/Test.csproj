@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>log.ico</ApplicationIcon>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
@@ -103,6 +103,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestGridModel.cs" />
+    <Compile Include="UCShouQuan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCShouQuan.Designer.cs">
+      <DependentUpon>UCShouQuan.cs</DependentUpon>
+    </Compile>
     <Compile Include="UC\UCTestArrow.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -114,6 +120,12 @@
     </Compile>
     <Compile Include="UC\UCTestBlower.Designer.cs">
       <DependentUpon>UCTestBlower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCTestCalendarNotes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCTestCalendarNotes.Designer.cs">
+      <DependentUpon>UCTestCalendarNotes.cs</DependentUpon>
     </Compile>
     <Compile Include="UC\UCTestColors.cs">
       <SubType>UserControl</SubType>
@@ -127,11 +139,23 @@
     <Compile Include="UC\UCTestConduit.Designer.cs">
       <DependentUpon>UCTestConduit.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC\UCTestContextMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCTestContextMenu.Designer.cs">
+      <DependentUpon>UCTestContextMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="UC\UCTestConveyor.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UC\UCTestConveyor.Designer.cs">
       <DependentUpon>UCTestConveyor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCTestDialAisle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCTestDialAisle.Designer.cs">
+      <DependentUpon>UCTestDialAisle.cs</DependentUpon>
     </Compile>
     <Compile Include="UC\UCTestFunnelChart.cs">
       <SubType>UserControl</SubType>
@@ -526,6 +550,12 @@
     <Compile Include="UC\UCTestRollText.Designer.cs">
       <DependentUpon>UCTestRollText.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC\UCTestRotor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCTestRotor.Designer.cs">
+      <DependentUpon>UCTestRotor.cs</DependentUpon>
+    </Compile>
     <Compile Include="UC\UCTestSampling.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -561,6 +591,12 @@
     </Compile>
     <Compile Include="UC\UCTestStep.Designer.cs">
       <DependentUpon>UCTestStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCTestSyringe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCTestSyringe.Designer.cs">
+      <DependentUpon>UCTestSyringe.cs</DependentUpon>
     </Compile>
     <Compile Include="UC\UCTestTab.cs">
       <SubType>UserControl</SubType>
@@ -609,6 +645,18 @@
     </Compile>
     <Compile Include="UC\UCTestTreeview.Designer.cs">
       <DependentUpon>UCTestTreeview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCTestTurntable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCTestTurntable.Designer.cs">
+      <DependentUpon>UCTestTurntable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCTestUCEllipseDialAisle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCTestUCEllipseDialAisle.Designer.cs">
+      <DependentUpon>UCTestUCEllipseDialAisle.cs</DependentUpon>
     </Compile>
     <Compile Include="UC\UCTestValve.cs">
       <SubType>UserControl</SubType>
@@ -662,6 +710,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UCShouQuan.resx">
+      <DependentUpon>UCShouQuan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UC\UCTestArrow.resx">
       <DependentUpon>UCTestArrow.cs</DependentUpon>
     </EmbeddedResource>
@@ -671,14 +722,23 @@
     <EmbeddedResource Include="UC\UCTestBtns.resx">
       <DependentUpon>UCTestBtns.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCTestCalendarNotes.resx">
+      <DependentUpon>UCTestCalendarNotes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UC\UCTestColors.resx">
       <DependentUpon>UCTestColors.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC\UCTestConduit.resx">
       <DependentUpon>UCTestConduit.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCTestContextMenu.resx">
+      <DependentUpon>UCTestContextMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UC\UCTestConveyor.resx">
       <DependentUpon>UCTestConveyor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCTestDialAisle.resx">
+      <DependentUpon>UCTestDialAisle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC\UCTestForms.resx">
       <DependentUpon>UCTestForms.cs</DependentUpon>
@@ -872,6 +932,9 @@
     <EmbeddedResource Include="UC\UCTestRollText.resx">
       <DependentUpon>UCTestRollText.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCTestRotor.resx">
+      <DependentUpon>UCTestRotor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UC\UCTestSampling.resx">
       <DependentUpon>UCTestSampling.cs</DependentUpon>
     </EmbeddedResource>
@@ -889,6 +952,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UC\UCTestStep.resx">
       <DependentUpon>UCTestStep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCTestSyringe.resx">
+      <DependentUpon>UCTestSyringe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC\UCTestTab.resx">
       <DependentUpon>UCTestTab.cs</DependentUpon>
@@ -913,6 +979,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UC\UCTestTreeview.resx">
       <DependentUpon>UCTestTreeview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCTestTurntable.resx">
+      <DependentUpon>UCTestTurntable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCTestUCEllipseDialAisle.resx">
+      <DependentUpon>UCTestUCEllipseDialAisle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC\UCTestValve.resx">
       <DependentUpon>UCTestValve.cs</DependentUpon>
@@ -949,6 +1021,7 @@
   <ItemGroup>
     <Content Include="log.ico" />
     <None Include="Resources\rowicon.png" />
+    <Content Include="logo.ico" />
     <Content Include="UC\UCTestLiveCharts\Cartesian\FunnelChart\Resources\fingerprint.png" />
     <Content Include="UC\UCTestLiveCharts\Cartesian\FunnelChart\Resources\user.png" />
     <Content Include="UC\UCTestLiveCharts\Cartesian\FunnelChart\Resources\view.png" />

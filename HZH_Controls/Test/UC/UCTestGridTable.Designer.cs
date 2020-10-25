@@ -45,18 +45,19 @@
             this.ucDataGridView1.IsShowHead = true;
             this.ucDataGridView1.Location = new System.Drawing.Point(0, 0);
             this.ucDataGridView1.Name = "ucDataGridView1";
+            this.ucDataGridView1.Padding = new System.Windows.Forms.Padding(0, 40, 0, 0);
             this.ucDataGridView1.RowHeight = 41;
             this.ucDataGridView1.RowType = typeof(HZH_Controls.Controls.UCDataGridViewRow);
-            this.ucDataGridView1.Size = new System.Drawing.Size(739, 599);
+            this.ucDataGridView1.Size = new System.Drawing.Size(724, 510);
             this.ucDataGridView1.TabIndex = 4;
             // 
             // UCTestGridTable
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.ucDataGridView1);
             this.Name = "UCTestGridTable";
-            this.Size = new System.Drawing.Size(739, 599);
+            this.Size = new System.Drawing.Size(724, 510);
             this.Load += new System.EventHandler(this.UCTestGridTable_Load);
             this.ResumeLayout(false);
 
